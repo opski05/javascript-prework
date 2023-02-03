@@ -47,6 +47,8 @@ printMessage('Twój ruch to: ' + playerMove);
 
 //Wynik gry
 
+displayResult(computerMove, playerMove)
+
 function displayResult(argComputerMove, argPlayerMove) {
 	if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
 		printMessage('Ty wygrywasz!');
